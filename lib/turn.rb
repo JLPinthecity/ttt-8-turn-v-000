@@ -1,7 +1,7 @@
-def display_board(x)
-  puts "   |   |   "
+def display_board(board)
+  puts " #{board[index]}| #{board[index]} | #{board[index]} "
   puts "-----------"
-  puts "   |   |   "
+  puts " #{board[index]}| #{board[index]} | #{board[index]} "
   puts "-----------"
-  puts "   |   |   "
+  puts " #{board[index]}| #{board[index]} | #{board[index]} "
 end
